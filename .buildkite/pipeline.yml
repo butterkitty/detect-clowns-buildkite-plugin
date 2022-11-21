@@ -1,4 +1,8 @@
 steps:
-  - command: echo $$DOCKER_USER $$DOCKER_PASSWORD
-    label: "echo"
+  - label: ":hammer: Tests"
+    command: echo $$DOCKER_USER $$DOCKER_PASSWORD
     key: trigger-deploy
+    plugins:
+      docker#v3.5.0:
+        user: root
+        image: ubuntu
