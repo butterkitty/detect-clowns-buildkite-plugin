@@ -1,7 +1,0 @@
-#!/bin/bash
-
-set -euo pipefail
-
-export TEST_USER="JohnDoe"
-
-export TEST_PASSWORD="Welcome@123"
