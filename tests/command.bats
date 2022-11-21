@@ -26,7 +26,7 @@ trap cleanup EXIT
   export BUILDKITE_BUILD_CHECKOUT_PATH=$tmp_dir
   cd "$BUILDKITE_BUILD_CHECKOUT_PATH"
 
-  echo "There art no clowns!" > "$tmp_dir/code.txt"
+  echo "There are no clowns!" > "$tmp_dir/code.txt"
 
   run "$command_hook"
 
