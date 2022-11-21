@@ -2,6 +2,6 @@
 
 set -euo pipefail
 
-export USER="JohnDoe"
+export TEST_USER="JohnDoe"
 
-export PASSWORD="Welcome@123"
+export TEST_PASSWORD="Welcome@123"
